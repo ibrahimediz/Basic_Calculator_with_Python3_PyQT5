@@ -2,6 +2,7 @@ import sys
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication,QMainWindow,QLineEdit,QPushButton
 class App(QMainWindow):
+    #Hesap Makinası PyQT
     def __init__(self):
         super().__init__()
         self.title = 'Hesap Makinesi'
