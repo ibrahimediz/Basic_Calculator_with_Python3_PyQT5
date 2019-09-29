@@ -6,7 +6,7 @@ class App(QMainWindow):
     def __init__(self):
         super().__init__()
         self.title = 'Hesap Makinesi'
-        self.pencere = uic.loadUi(r"D:\ibrahim_ediz\Ornekler\GUI\HesapMak.ui")
+        self.pencere = uic.loadUi('HesapMak.ui')
         self.liste = ["+","-","/","*"]
         self.pencere.txtEkran.textChanged.connect(self.controlFonk)
         self.islem = True
